@@ -1,0 +1,127 @@
+.testimonials-section {
+  padding-bottom: 150px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+  .client-list {
+    position: relative;
+    a {
+      position: absolute;
+      z-index: 9;
+      &:nth-child(1) {
+        left: -120px;
+        top: -120px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      &:nth-child(2) {
+        right: -120px;
+        top: -120px;
+        img {
+          width: 94px;
+          height: 94px;
+        }
+      }
+      &:nth-child(3) {
+        left: -310px;
+        top: 80px;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+      &:nth-child(4) {
+        right: -310px;
+        top: 80px;
+        img {
+          width: 154px;
+          height: 154px;
+        }
+      }
+      &:nth-child(5) {
+        left: -250px;
+        top: 270px;
+        img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+      &:nth-child(6) {
+        right: -180px;
+        top: 320px;
+        img {
+          width: 55px;
+          height: 55px;
+        }
+      }
+      img {
+        width: 136px;
+        height: 136px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .client-text {
+    position: relative;
+    &:before {
+      position: absolute;
+      left: -135px;
+      bottom: -120px;
+      width: 473px;
+      height: 214px;
+      content: "";
+      background-image: url("../../../../../assets/img/t-bg.png");
+      background-repeat: no-repeat;
+    }
+    &:after {
+      position: absolute;
+      right: -135px;
+      top: 20px;
+      width: 473px;
+      height: 214px;
+      content: "";
+      background-image: url("../../../../../assets/img/t-bg.png");
+      background-repeat: no-repeat;
+    }
+    p {
+      border-radius: 20px;
+      padding: 68px;
+      background-color: #fff;
+      font-size: 1.55rem;
+      color: #94a2b3;
+      font-weight: 900;
+      position: relative;
+      line-height: 1.66rem;
+      z-index: 9;
+      &:before {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 71px;
+        height: 51px;
+        content: "";
+        background-image: url("../../../../../assets/img/quote.png");
+        background-repeat: no-repeat;
+      }
+
+      &:after {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        width: 71px;
+        height: 51px;
+        content: "";
+        background-image: url("../../../../../assets/img/quote.png");
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

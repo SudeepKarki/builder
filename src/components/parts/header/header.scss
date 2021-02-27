@@ -1,0 +1,19 @@
+.navbar {
+  .navbar-brand {
+    font-size: 2.27rem;
+    font-weight: 900;
+    color: #272d4e;
+  }
+  &.navbar-expand-md {
+    .navbar-nav {
+      .nav-link {
+        font-weight: 500;
+        color: #272d4e;
+        padding: 0.5rem 1.38rem;
+        &.active {
+          color: #00dadd;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+$base-color: #00dadd;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #272d4e;
+}
+h2 {
+  font-size: 3.05rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.btn {
+  border-radius: 60px;
+  &-header {
+    background-color: $base-color;
+    border-radius: 5px;
+    color: #fff;
+  }
+  &-custom {
+    background-color: $base-color;
+    padding: 15px 30px;
+    border: none;
+    &:hover {
+      background-color: $base-color;
+    }
+  }
+}
