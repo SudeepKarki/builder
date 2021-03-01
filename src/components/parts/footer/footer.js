@@ -19,7 +19,7 @@ function Footer() {
           <Row className="justify-content-center">
             <Col>
               <p>
-                <img src={I1} />
+                <img alt="" src={I1} />
                 <span>
                   7 day project qutation for <b>the project</b>
                 </span>
@@ -27,7 +27,7 @@ function Footer() {
             </Col>
             <Col>
               <p>
-                <img src={I2} />
+                <img alt="" src={I2} />
                 <span>
                   <b>Support </b>teams across the world
                 </span>
@@ -35,7 +35,7 @@ function Footer() {
             </Col>
             <Col>
               <p>
-                <img src={I3} />
+                <img alt="" src={I3} />
                 <span>
                   Easy to <b>talk and build for company</b>
                 </span>
@@ -51,57 +51,57 @@ function Footer() {
                 <Col>
                   <h4>Who we Are</h4>
                   <div className="footer-nav-links">
-                    <a href="#">About</a>
-                    <a href="#">Team</a>
-                    <a href="#">Work With Us</a>
+                    <a href="/">About</a>
+                    <a href="/">Team</a>
+                    <a href="/">Work With Us</a>
                   </div>
                 </Col>
                 <Col>
                   <h4>Woocommerce</h4>
                   <div className="footer-nav-links">
-                    <a href="#">Features</a>
-                    <a href="#">Payments</a>
-                    <a href="#">Marketing</a>
-                    <a href="#">Shipping</a>
-                    <a href="#">Extension Store</a>
-                    <a href="#">eCommerce blog</a>
-                    <a href="#">Development blog</a>
-                    <a href="#">Ideas board</a>
-                    <a href="#">Mobile App</a>
-                    <a href="#">Community</a>
-                    <a href="#">Style Guide</a>
-                    <a href="#">Email Newsletter</a>
+                    <a href="/">Features</a>
+                    <a href="/">Payments</a>
+                    <a href="/">Marketing</a>
+                    <a href="/">Shipping</a>
+                    <a href="/">Extension Store</a>
+                    <a href="/">eCommerce blog</a>
+                    <a href="/">Development blog</a>
+                    <a href="/">Ideas board</a>
+                    <a href="/">Mobile App</a>
+                    <a href="/">Community</a>
+                    <a href="/">Style Guide</a>
+                    <a href="/">Email Newsletter</a>
                   </div>
                 </Col>
                 <Col>
                   <h4>Other products</h4>
                   <div className="footer-nav-links">
-                    <a href="#">Storefront</a>
-                    <a href="#">WooSlider</a>
-                    <a href="#">Sensei</a>
-                    <a href="#">Sensei Extensions</a>
+                    <a href="/">Storefront</a>
+                    <a href="/">WooSlider</a>
+                    <a href="/">Sensei</a>
+                    <a href="/">Sensei Extensions</a>
                   </div>
                 </Col>
                 <Col>
                   <h4>Support</h4>
                   <div className="footer-nav-links">
-                    <a href="#">Documentation</a>
-                    <a href="#">Customizations</a>
-                    <a href="#">Support Policy</a>
-                    <a href="#">Contact</a>
-                    <a href="#">COVID-19 Resources</a>
-                    <a href="#">Privacy Notice for</a>
-                    <a href="#">California Users</a>
+                    <a href="/">Documentation</a>
+                    <a href="/">Customizations</a>
+                    <a href="/">Support Policy</a>
+                    <a href="/">Contact</a>
+                    <a href="/">COVID-19 Resources</a>
+                    <a href="/">Privacy Notice for</a>
+                    <a href="/">California Users</a>
                   </div>
                 </Col>
                 <Col>
                   <h4>We recommend</h4>
                   <div className="footer-nav-links">
-                    <a href="#">WooExperts</a>
-                    <a href="#">Hosting Solutions</a>
-                    <a href="#">Pre-sales FAQ</a>
-                    <a href="#">Success Stories</a>
-                    <a href="#">Design Feedback Group</a>
+                    <a href="/">WooExperts</a>
+                    <a href="/">Hosting Solutions</a>
+                    <a href="/">Pre-sales FAQ</a>
+                    <a href="/">Success Stories</a>
+                    <a href="/">Design Feedback Group</a>
                   </div>
                 </Col>
               </Row>
@@ -115,28 +115,28 @@ function Footer() {
           <Row>
             <Col>
               <div className="footer-social">
-                <a href="#">
-                  <img src={S1} />
+                <a href="/">
+                  <img alt="" src={S1} />
                 </a>
-                <a href="#">
-                  <img src={S2} />
+                <a href="/">
+                  <img alt="" src={S2} />
                 </a>
-                <a href="#">
-                  <img src={S3} />
+                <a href="/">
+                  <img alt="" src={S3} />
                 </a>
-                <a href="#">
-                  <img src={S4} />
+                <a href="/">
+                  <img alt="" src={S4} />
                 </a>
               </div>
             </Col>
             <Col>
               <div className="terms">
-                <a href="#">TERMS & CONDITIONS PRIVACY POLICY</a>
+                <a href="/">TERMS & CONDITIONS PRIVACY POLICY</a>
               </div>
             </Col>
             <Col>
               <div className="design">
-                Designed by <a href="#">Saga Innovation</a>
+                Designed by <a href="/">Saga Innovation</a>
               </div>
             </Col>
           </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.scss";
-import { Button, Col, Container, Row } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 
 import C1 from "../../../../../assets/img/c1.png";
 import C2 from "../../../../../assets/img/c2.png";
@@ -18,23 +18,23 @@ function Testimonials() {
         <Row className="justify-content-center">
           <Col sm="6">
             <div className="client-list">
-              <a href="#">
-                <img src={C1} />
+              <a href="/">
+                <img alt="" src={C1} />
               </a>
-              <a href="#">
-                <img src={C2} />
+              <a href="/">
+                <img alt="" src={C2} />
               </a>
-              <a href="#">
-                <img src={C3} />
+              <a href="/">
+                <img alt="" src={C3} />
               </a>
-              <a href="#">
-                <img src={C4} />
+              <a href="/">
+                <img alt="" src={C4} />
               </a>
-              <a href="#">
-                <img src={C2} />
+              <a href="/">
+                <img alt="" src={C2} />
               </a>
-              <a href="#">
-                <img src={C3} />
+              <a href="/">
+                <img alt="" src={C3} />
               </a>
             </div>
             <div className="client-text">

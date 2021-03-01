@@ -13,7 +13,7 @@ function FooterTop() {
         providing
         <br /> customer support across multiple time zones.
       </p>
-      <img src={FT} className="img-fluid" />
+      <img alt="" src={FT} className="img-fluid" />
       <div className="contact-section">
         <Container>
           <Row className="justify-content-center align-items-center">
