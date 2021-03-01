@@ -65,6 +65,10 @@
         width: 136px;
         height: 136px;
         border-radius: 50%;
+        transition: 400ms ease;
+        &:hover {
+          transform: scale(1.25);
+        }
       }
     }
   }
