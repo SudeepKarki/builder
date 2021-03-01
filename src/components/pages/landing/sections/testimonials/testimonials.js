@@ -14,17 +14,17 @@ function Testimonials() {
   const handleClick = (value) => {
     value.preventDefault();
     console.log(value.target.id);
-    if (value.target.id === 1) {
+    if (value.target.id === "1") {
       setTestimonial("First Testimonial");
-    } else if (value.target.id === 2) {
+    } else if (value.target.id === "2") {
       setTestimonial("Second Testimonial");
-    } else if (value.target.id === 3) {
+    } else if (value.target.id === "3") {
       setTestimonial("Third Testimonial");
-    } else if (value.target.id === 4) {
+    } else if (value.target.id === "4") {
       setTestimonial("Fourth Testimonial");
-    } else if (value.target.id === 5) {
+    } else if (value.target.id === "5") {
       setTestimonial("Fifth Testimonial");
-    } else if (value.target.id === 6) {
+    } else if (value.target.id === "6") {
       setTestimonial("Sixth Testimonial");
     }
   };
