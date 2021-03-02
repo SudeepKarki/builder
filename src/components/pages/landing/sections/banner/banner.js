@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { Button, Col, Container, Row } from "reactstrap";
 import BannerImage from "../../../../../assets/img/banner-bg.png";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 function Banner() {
   return (
     <section className="banner-section">
@@ -27,7 +30,12 @@ function Banner() {
             </div>
           </Col>
           <Col sm="5" className="pr-0 pl-0">
-            <img className="img-fluid" src={BannerImage} alt="" />
+            <LazyLoadImage
+              effect="blur"
+              className="img-fluid"
+              src={BannerImage}
+              alt=""
+            />
           </Col>
         </Row>
       </Container>

@@ -2,6 +2,9 @@ import React from "react";
 import "./footerTop.scss";
 import { Button, Col, Container, Row } from "reactstrap";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import FT from "../../../../../assets/img/ft.png";
 
 function FooterTop() {
@@ -13,7 +16,7 @@ function FooterTop() {
         providing
         <br /> customer support across multiple time zones.
       </p>
-      <img alt="" src={FT} className="img-fluid" />
+      <LazyLoadImage effect="blur" alt="" src={FT} className="img-fluid" />
       <div className="contact-section">
         <Container>
           <Row className="justify-content-center align-items-center">

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./testimonials.scss";
 import { Col, Container, Row } from "reactstrap";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import C1 from "../../../../../assets/img/c1.png";
 import C2 from "../../../../../assets/img/c2.png";
 import C3 from "../../../../../assets/img/c3.png";
@@ -39,22 +42,22 @@ function Testimonials() {
           <Col sm="6">
             <div className="client-list">
               <a href="/" onClick={handleClick}>
-                <img id="1" alt="" src={C1} />
+                <LazyLoadImage effect="blur" id="1" alt="" src={C1} />
               </a>
               <a href="/" onClick={handleClick}>
-                <img id="2" alt="" src={C2} />
+                <LazyLoadImage effect="blur" id="2" alt="" src={C2} />
               </a>
               <a href="/" onClick={handleClick}>
-                <img id="3" alt="" src={C3} />
+                <LazyLoadImage effect="blur" id="3" alt="" src={C3} />
               </a>
               <a href="/" onClick={handleClick}>
-                <img id="4" alt="" src={C4} />
+                <LazyLoadImage effect="blur" id="4" alt="" src={C4} />
               </a>
               <a href="/" onClick={handleClick}>
-                <img id="5" alt="" src={C2} />
+                <LazyLoadImage effect="blur" id="5" alt="" src={C2} />
               </a>
               <a href="/" onClick={handleClick}>
-                <img id="6" alt="" src={C3} />
+                <LazyLoadImage effect="blur" id="6" alt="" src={C3} />
               </a>
             </div>
             <div className="client-text">

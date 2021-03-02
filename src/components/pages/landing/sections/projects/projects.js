@@ -12,6 +12,9 @@ import {
   CardTitle,
 } from "reactstrap";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import P1 from "../../../../../assets/img/p1.png";
 import P2 from "../../../../../assets/img/p2.png";
 import P3 from "../../../../../assets/img/p3.png";
@@ -24,7 +27,14 @@ function Projects() {
         <Row>
           <Col sm="4">
             <Card className="border-0">
-              <CardImg top width="100%" src={P1} alt="" />
+              <LazyLoadImage
+                effect="blur"
+                className="card-img-top"
+                top
+                width="100%"
+                src={P1}
+                alt=""
+              />
               <CardBody>
                 <CardTitle tag="h5">All You Need to Start</CardTitle>
                 <CardText>
@@ -37,7 +47,14 @@ function Projects() {
           </Col>
           <Col sm="4">
             <Card className="border-0">
-              <CardImg top width="100%" src={P2} alt="" />
+              <LazyLoadImage
+                effect="blur"
+                className="card-img-top"
+                top
+                width="100%"
+                src={P2}
+                alt=""
+              />
               <CardBody>
                 <CardTitle tag="h5">Customize and Extend</CardTitle>
                 <CardText>
@@ -50,7 +67,14 @@ function Projects() {
           </Col>
           <Col sm="4">
             <Card className="border-0">
-              <CardImg top width="100%" src={P3} alt="" />
+              <LazyLoadImage
+                effect="blur"
+                className="card-img-top"
+                top
+                width="100%"
+                src={P3}
+                alt=""
+              />
               <CardBody>
                 <CardTitle tag="h5">Active Community</CardTitle>
                 <CardText>

@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./footer.scss";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import I1 from "../../../assets/img/i1.png";
 import I2 from "../../../assets/img/i2.png";
 import I3 from "../../../assets/img/i3.png";
@@ -19,7 +22,7 @@ function Footer() {
           <Row className="justify-content-center">
             <Col>
               <p>
-                <img alt="" src={I1} />
+                <LazyLoadImage effect="blur" alt="" src={I1} />
                 <span>
                   7 day project qutation for <b>the project</b>
                 </span>
@@ -27,7 +30,7 @@ function Footer() {
             </Col>
             <Col>
               <p>
-                <img alt="" src={I2} />
+                <LazyLoadImage effect="blur" alt="" src={I2} />
                 <span>
                   <b>Support </b>teams across the world
                 </span>
@@ -35,7 +38,7 @@ function Footer() {
             </Col>
             <Col>
               <p>
-                <img alt="" src={I3} />
+                <LazyLoadImage effect="blur" alt="" src={I3} />
                 <span>
                   Easy to <b>talk and build for company</b>
                 </span>
@@ -116,16 +119,16 @@ function Footer() {
             <Col>
               <div className="footer-social">
                 <a href="/">
-                  <img alt="" src={S1} />
+                  <LazyLoadImage effect="blur" alt="" src={S1} />
                 </a>
                 <a href="/">
-                  <img alt="" src={S2} />
+                  <LazyLoadImage effect="blur" alt="" src={S2} />
                 </a>
                 <a href="/">
-                  <img alt="" src={S3} />
+                  <LazyLoadImage effect="blur" alt="" src={S3} />
                 </a>
                 <a href="/">
-                  <img alt="" src={S4} />
+                  <LazyLoadImage effect="blur" alt="" src={S4} />
                 </a>
               </div>
             </Col>
