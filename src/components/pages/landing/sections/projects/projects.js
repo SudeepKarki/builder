@@ -6,7 +6,6 @@ import {
   Container,
   Row,
   Card,
-  CardImg,
   CardText,
   CardBody,
   CardTitle,
