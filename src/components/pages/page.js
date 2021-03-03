@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
-import ErrorPage from "../parts/errorPage/ErrorPage";
 import Footer from "../parts/footer/footer";
 import HeaderNav from "../parts/header/header";
 import Loader from "../parts/loader/Loader";
@@ -8,12 +7,13 @@ import Loader from "../parts/loader/Loader";
 // import AboutUs from "./aboutUs/aboutUs";
 // import Contact from "./contact/contact";
 // import ProjectPage from "./projects/projects";
+// import ErrorPage from "../parts/errorPage/ErrorPage";
 
 const Landing = React.lazy(() => import("./landing/landing"));
 const AboutUs = React.lazy(() => import("./aboutUs/aboutUs"));
 const Contact = React.lazy(() => import("./contact/contact"));
 const ProjectPage = React.lazy(() => import("./projects/projects"));
-// const ErrorPage = React.lazy(() => import("../parts/errorPage/ErrorPage"));
+const ErrorPage = React.lazy(() => import("../parts/errorPage/ErrorPage"));
 
 function Pages() {
   return (
