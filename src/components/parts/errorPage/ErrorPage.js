@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./ErrorPage.scss";
 function ErrorPage() {
   return (
-    <>
+    <div className="position-relative">
       <div className="background">
         <div className="ground"></div>
       </div>
@@ -116,7 +116,7 @@ function ErrorPage() {
           </svg>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

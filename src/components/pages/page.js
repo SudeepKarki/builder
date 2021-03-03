@@ -25,17 +25,17 @@ function Pages() {
             <Landing />
           </Suspense>
         </Route>
-        <Route path="/about-us">
+        <Route path="/about-us" exact>
           <Suspense fallback={<Loader />}>
             <AboutUs />
           </Suspense>
         </Route>
-        <Route path="/projects">
+        <Route path="/projects" exact>
           <Suspense fallback={<Loader />}>
             <ProjectPage />
           </Suspense>
         </Route>
-        <Route path="/contact-us">
+        <Route path="/contact-us" exact>
           <Suspense fallback={<Loader />}>
             <Contact />
           </Suspense>
